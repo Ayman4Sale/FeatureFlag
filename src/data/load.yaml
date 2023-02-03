@@ -1,22 +1,6 @@
 configs:
-  info:
-    apps:
-      _TYPE: int
-      _TOOLTIP: Number of applications per plan
-    apps_upper_limit:
-      _TYPE: int
-      _TOOLTIP: Max number of applications per plan
-    team:
-      _TYPE: int
-      _TOOLTIP: Number of team members per plan
-    team_upper_limit:
-      _TYPE: int
-      _TOOLTIP: Max number of members per plan
-    interval:
-      _TYPE: array
-      _OPTIONS:
-        - monthly
-        - annual
+  PLF:
+   _TYPE: bool
   limits:
     sessions:
       _TYPE: int
