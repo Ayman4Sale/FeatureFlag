@@ -1,6 +1,6 @@
 configs:
   PLF:
-   _TYPE: bool
+    _TYPE: bool
   limits:
     sessions:
       _TYPE: int
